@@ -18,7 +18,7 @@ public class VolvoPassengerCar extends VolvoIndustry {
     public void engineringAuto() {         // Переопределенный метод от AutoIndustry.
         System.out.println("Разработка легковыйх автомобилей " + name);
     }
-    void acceleration11(){
+    void acceleration11(){              // Разное ускорение.
         System.out.println("Этa "+name+" разгоняеться до 100 км/ч за 11 секунд.");
     }
     void acceleration7(){

@@ -6,7 +6,6 @@ package automanufacture;
 public class VolvoIndustry extends AutoIndustry{
 
     String name = "Volvo";
-    boolean electroEngine;
     String[] arrayOfCargoName = {"fm 10", "fm 11", "fm 12", "fh 10", "fh 11", "fh 12", "fh 13"};   // Массив марок грузовыйх автомобилей.
 
     @Override
